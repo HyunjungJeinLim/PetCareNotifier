@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.PetCareNotifier" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 색상 시스템 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/purple_200</item>
+        <item name="colorOnPrimaryContainer">@color/purple_700</item>
+
+        <!-- 버튼 스타일 -->
+        <item name="materialButtonStyle">@style/Widget.PetCareNotifier.Button</item>
+
+        <!-- 시스템 바 설정 -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.PetCareNotifier" parent="Base.Theme.PetCareNotifier">
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.PetCareNotifier.Dark" parent="Base.Theme.PetCareNotifier">
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <!-- 버튼 스타일 -->
+    <style name="Widget.PetCareNotifier.Button" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/border_rounded</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>

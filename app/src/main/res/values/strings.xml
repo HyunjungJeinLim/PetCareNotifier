@@ -1,0 +1,30 @@
+<resources>
+<string name="app_name">Pet Care Notifier</string>
+<string name="start">Start</string>
+<string name="login">Login</string>
+<string name="hint_username">Username</string>
+<string name="hint_password">Password</string>
+<string name="invalid_credentials">Invalid username or password</string>
+<string name="select_pet">Select Your Pet</string>
+<string name="add_pet">Add New Pet</string>
+<string name="all_tracking">All Tracking</string>
+<string name="poop">Poop</string>
+<string name="potty">Potty</string>
+<string name="vaccine">Vaccine</string>
+<string name="medicine">Medicine</string>
+<string name="previous">Previous</string>
+<string name="edit">Edit</string>
+<string name="calendar">Calendar</string>
+<string name="save">Save</string>
+<string name="hint_name">Name</string>
+<string name="hint_age">Age</string>
+<string name="hint_breed">Breed</string>
+<string name="hint_birthday">Birthday</string>
+<string name="hint_event_date">Date (YYYY-MM-DD)</string>
+<string name="hint_event_title">Event Title</string>
+<string name="add_event">Add Event</string>
+<string name="no_records">No records found</string>
+<string name="age_format">Age: %s years</string>
+<string name="breed_format">Breed: %s</string>
+<string name="birthday_format">Birthday: %s</string>
+</resources>
