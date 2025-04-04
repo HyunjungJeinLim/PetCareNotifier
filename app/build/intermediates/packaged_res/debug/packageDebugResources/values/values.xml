@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_background">#FF121212</color>
+    <color name="dark_surface">#FF1E1E1E</color>
+    <color name="light_background">#FFFFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="light_surface">#FFF5F5F5</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_event">Add Event</string>
+    <string name="add_pet">Add New Pet</string>
+    <string name="age_format">Age: %s years</string>
+    <string name="all_tracking">All Tracking</string>
+    <string name="app_name">Pet Care Notifier</string>
+    <string name="birthday_format">Birthday: %s</string>
+    <string name="breed_format">Breed: %s</string>
+    <string name="calendar">Calendar</string>
+    <string name="edit">Edit</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_breed">Breed</string>
+    <string name="hint_event_date">Date (YYYY-MM-DD)</string>
+    <string name="hint_event_title">Event Title</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="invalid_credentials">Invalid username or password</string>
+    <string name="login">Login</string>
+    <string name="medicine">Medicine</string>
+    <string name="no_records">No records found</string>
+    <string name="poop">Poop</string>
+    <string name="potty">Potty</string>
+    <string name="previous">Previous</string>
+    <string name="save">Save</string>
+    <string name="select_pet">Select Your Pet</string>
+    <string name="start">Start</string>
+    <string name="vaccine">Vaccine</string>
+    <style name="Base.Theme.PetCareNotifier" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/purple_200</item>
+        <item name="colorOnPrimaryContainer">@color/purple_700</item>
+
+        
+        <item name="materialButtonStyle">@style/Widget.PetCareNotifier.Button</item>
+
+        
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+    <style name="Theme.PetCareNotifier" parent="Base.Theme.PetCareNotifier">
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+    <style name="Theme.PetCareNotifier.Dark" parent="Base.Theme.PetCareNotifier">
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+    <style name="Widget.PetCareNotifier.Button" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/border_rounded</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+</resources>
