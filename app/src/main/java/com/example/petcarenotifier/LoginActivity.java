@@ -12,8 +12,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         findViewById(R.id.btnLogin).setOnClickListener(v -> {
-            String username = ((android.widget.EditText)findViewById(R.id.etUsername)).getText().toString();
-            String password = ((android.widget.EditText)findViewById(R.id.etPassword)).getText().toString();
+            String username = ((android.widget.EditText)findViewById(R.id.Username)).getText().toString();
+            String password = ((android.widget.EditText)findViewById(R.id.Password)).getText().toString();
 
             if (UserData.users.containsKey(username) && UserData.users.get(username).equals(password)) {
                 startActivity(new Intent(this, PetSelectionActivity.class));
