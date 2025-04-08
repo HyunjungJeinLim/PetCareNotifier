@@ -3235,7 +3235,9 @@ id bounceStart
 id btnAddPet
 id btnAddTracking
 id btnCalendar
+id btnCreateAccount
 id btnEdit
+id btnGoToLogin
 id btnLogin
 id btnLogout
 id btnPrevious
@@ -3330,8 +3332,10 @@ id etAge
 id etBirthday
 id etBreed
 id etName
+id etPassword
 id etTrackingDate
 id etTrackingDetails
+id etUsername
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3790,6 +3794,7 @@ layout activity_edit_pet
 layout activity_login
 layout activity_main
 layout activity_pet_selection
+layout activity_signup
 layout activity_tracking
 layout custom_dialog
 layout design_bottom_navigation_item

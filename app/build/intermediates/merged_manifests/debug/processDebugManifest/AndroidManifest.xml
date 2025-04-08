@@ -40,6 +40,7 @@
         <activity android:name="com.example.petcarenotifier.ui.dashboard.EditPetActivity" />
         <activity android:name="com.example.petcarenotifier.ui.calendar.CalendarActivity" />
         <activity android:name="com.example.petcarenotifier.ui.tracking.TrackingActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.auth.SignupActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
