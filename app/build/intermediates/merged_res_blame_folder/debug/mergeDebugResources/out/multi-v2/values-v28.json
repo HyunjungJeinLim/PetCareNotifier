@@ -4,7 +4,7 @@
             "outputFile": "com.example.petcarenotifier.app-mergeDebugResources-2:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\limsa\\.gradle\\caches\\8.10.2\\transforms\\2d8b04f8d501876c9578c1aa99d6768d\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Stephanie\\.gradle\\caches\\8.10.2\\transforms\\28c82937c093b419de39576a69d53a3d\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\limsa\\.gradle\\caches\\8.10.2\\transforms\\87dbafd3d2ee06ded387fd452a6a62a2\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Stephanie\\.gradle\\caches\\8.10.2\\transforms\\4a677d5d4a81f5f724cc41f7ad6628a5\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

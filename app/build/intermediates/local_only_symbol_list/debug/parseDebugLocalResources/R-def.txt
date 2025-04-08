@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array tracking_types
 color black
 color dark_background
 color dark_surface
@@ -23,22 +24,26 @@ drawable pommi_pomeranian
 drawable riki_frenchbulldog
 drawable taco_welshcorgi
 drawable tofu_bichon
-id btnAddEvent
+id Password
+id Username
 id btnAddPet
+id btnAddTracking
 id btnCalendar
 id btnEdit
 id btnLogin
+id btnLogout
 id btnPrevious
 id btnSave
+id btnSaveTracking
+id btnSignUp
 id btnStart
+id calendarView
 id etAge
 id etBirthday
 id etBreed
-id etEventDate
-id etEventTitle
 id etName
-id etPassword
-id etUsername
+id etTrackingDate
+id etTrackingDetails
 id ivPet
 id llMedicineRecords
 id llPoopRecords
@@ -46,6 +51,7 @@ id llPottyRecords
 id llVaccineRecords
 id lvEvents
 id petGrid
+id spinnerType
 id textEdit
 id tvAge
 id tvBirthday
@@ -59,6 +65,7 @@ layout activity_edit_pet
 layout activity_login
 layout activity_main
 layout activity_pet_selection
+layout activity_tracking
 layout item_event
 layout item_pet
 mipmap ic_launcher
@@ -72,6 +79,7 @@ string birthday_format
 string breed_format
 string calendar
 string edit
+string event
 string hint_age
 string hint_birthday
 string hint_breed

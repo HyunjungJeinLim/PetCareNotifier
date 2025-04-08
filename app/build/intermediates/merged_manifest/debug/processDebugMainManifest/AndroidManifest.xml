@@ -34,11 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.petcarenotifier.LoginActivity" />
-        <activity android:name="com.example.petcarenotifier.PetSelectionActivity" />
-        <activity android:name="com.example.petcarenotifier.DashboardActivity" />
-        <activity android:name="com.example.petcarenotifier.EditPetActivity" />
-        <activity android:name="com.example.petcarenotifier.CalendarActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.auth.LoginActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.pet.PetSelectionActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.dashboard.DashboardActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.dashboard.EditPetActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.calendar.CalendarActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.tracking.TrackingActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -54,6 +55,11 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

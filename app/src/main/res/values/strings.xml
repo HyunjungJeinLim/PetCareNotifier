@@ -28,4 +28,11 @@
 <string name="age_format">Age: %s years</string>
 <string name="breed_format">Breed: %s</string>
 <string name="birthday_format">Birthday: %s</string>
+    <string-array name="tracking_types">
+        <item>Poop</item>
+        <item>Potty</item>
+        <item>Vaccine</item>
+        <item>Medicine</item>
+    </string-array>
+
 </resources>

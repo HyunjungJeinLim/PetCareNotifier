@@ -19,11 +19,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".PetSelectionActivity" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".EditPetActivity" />
-        <activity android:name=".CalendarActivity" />
+        <activity android:name=".ui.auth.LoginActivity" />
+        <activity android:name=".ui.pet.PetSelectionActivity" />
+        <activity android:name=".ui.dashboard.DashboardActivity" />
+        <activity android:name=".ui.dashboard.EditPetActivity" />
+        <activity android:name=".ui.calendar.CalendarActivity" />
+        <activity android:name=".ui.tracking.TrackingActivity" />
+
     </application>
 
 </manifest>

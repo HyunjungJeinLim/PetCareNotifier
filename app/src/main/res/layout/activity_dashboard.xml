@@ -256,6 +256,14 @@
                 android:layout_weight="1"
                 android:maxWidth="120dp"
                 android:text="@string/edit" />
+            <Button
+                android:id="@+id/btnAddTracking"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxWidth="120dp"
+                android:text="Add Tracking" />
 
             <Button
                 android:id="@+id/btnCalendar"
@@ -265,6 +273,17 @@
                 android:layout_weight="1"
                 android:maxWidth="120dp"
                 android:text="@string/calendar" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Log Out" />
+
+
         </LinearLayout>
+
+
     </LinearLayout>
 </ScrollView>
