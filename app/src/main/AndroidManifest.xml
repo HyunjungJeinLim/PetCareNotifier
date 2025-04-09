@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.petcarenotifier">
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:allowBackup="true"
@@ -10,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetCareNotifier">
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,13 +20,15 @@
         </activity>
 
         <activity android:name=".ui.auth.LoginActivity" />
+        <activity android:name=".ui.auth.SignupActivity" />
         <activity android:name=".ui.pet.PetSelectionActivity" />
         <activity android:name=".ui.dashboard.DashboardActivity" />
         <activity android:name=".ui.dashboard.EditPetActivity" />
         <activity android:name=".ui.calendar.CalendarActivity" />
         <activity android:name=".ui.tracking.TrackingActivity" />
-        <activity android:name=".ui.auth.SignupActivity" />
 
+        <receiver
+            android:name=".notifications.NotificationReceiver"
+            android:exported="true" />
     </application>
-
 </manifest>

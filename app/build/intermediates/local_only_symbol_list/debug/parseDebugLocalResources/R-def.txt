@@ -34,6 +34,8 @@ id btnEdit
 id btnGoToLogin
 id btnLogin
 id btnLogout
+id btnPickDate
+id btnPickTime
 id btnPrevious
 id btnSave
 id btnSaveTracking
@@ -45,7 +47,6 @@ id etBirthday
 id etBreed
 id etName
 id etPassword
-id etTrackingDate
 id etTrackingDetails
 id etUsername
 id ivPet

@@ -1,142 +1,146 @@
 [
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_edit_pet.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_edit_pet.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_bob_husky.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/bob_husky.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_ic_pet_care.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/ic_pet_care.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_item_pet.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/item_pet.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_ic_pet_care.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\ic_pet_care.png"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_cookie_retriever.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/cookie_retriever.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_tofu_bichon.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\tofu_bichon.png"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_item_event.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/item_event.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_edit_pet.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_edit_pet.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_taco_welshcorgi.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\taco_welshcorgi.png"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_item_event.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\item_event.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_signup.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_signup.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_pet_selection.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_pet_selection.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_calendar.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_calendar.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_cookie_retriever.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\cookie_retriever.png"
+    },
+    {
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_dashboard.xml"
     },
     {
         "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_tracking.xml.flat",
         "source": "com.example.petcarenotifier.app-main-6:/layout/activity_tracking.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_app_picture.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\app_picture.png"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_pommi_pomeranian.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/pommi_pomeranian.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_tracking.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_tracking.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_app_picture.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/app_picture.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_riki_frenchbulldog.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\riki_frenchbulldog.png"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_dashboard.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_dashboard.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_pet_selection.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_pet_selection.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_border_rounded.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\border_rounded.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/xml_backup_rules.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_riki_frenchbulldog.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/riki_frenchbulldog.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_login.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_item_pet.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\item_pet.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/layout_activity_main.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_bob_husky.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\bob_husky.png"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\layout_activity_calendar.xml.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\layout\\activity_calendar.xml"
     },
     {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_tofu_bichon.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/tofu_bichon.png"
-    },
-    {
-        "merged": "com.example.petcarenotifier.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_border_rounded.xml.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/border_rounded.xml"
-    },
-    {
-        "merged": "com.example.petcarenotifier.app-debug-4:/drawable_taco_welshcorgi.png.flat",
-        "source": "com.example.petcarenotifier.app-main-6:/drawable/taco_welshcorgi.png"
+        "merged": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-debug-4:\\drawable_pommi_pomeranian.png.flat",
+        "source": "C:\\Users\\Stephanie\\.gradle\\daemon\\8.10.2\\com.example.petcarenotifier.app-main-6:\\drawable\\pommi_pomeranian.png"
     }
 ]

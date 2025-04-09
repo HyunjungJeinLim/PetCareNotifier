@@ -95,21 +95,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="2"
-            android:rowCount="2">
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
 
-            <!-- 1. Poop Tracking -->
+            <!-- Poop Tracking -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_columnWeight="1"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="8dp">
 
@@ -118,31 +118,28 @@
                         android:layout_height="wrap_content"
                         android:text="@string/poop"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:contentDescription="@string/poop" />
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/llPoopRecords"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
                         android:orientation="vertical"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- 2. Potty Tracking -->
+            <!-- Potty Tracking -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_columnWeight="1"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="8dp">
 
@@ -151,31 +148,28 @@
                         android:layout_height="wrap_content"
                         android:text="@string/potty"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:contentDescription="@string/potty" />
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/llPottyRecords"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
                         android:orientation="vertical"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- 3. Vaccine Tracking -->
+            <!-- Vaccine Tracking -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_columnWeight="1"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="8dp">
 
@@ -184,31 +178,28 @@
                         android:layout_height="wrap_content"
                         android:text="@string/vaccine"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:contentDescription="@string/vaccine" />
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/llVaccineRecords"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
                         android:orientation="vertical"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- 4. Medicine Tracking -->
+            <!-- Medicine Tracking -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:layout_columnWeight="1"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="8dp">
 
@@ -217,18 +208,18 @@
                         android:layout_height="wrap_content"
                         android:text="@string/medicine"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:contentDescription="@string/medicine" />
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/llMedicineRecords"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
                         android:orientation="vertical"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
         </GridLayout>
+
 
         <!-- Bottom Buttons -->
         <LinearLayout

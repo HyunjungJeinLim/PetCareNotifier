@@ -3239,6 +3239,8 @@ int id btnEdit 0x7f09006b
 int id btnGoToLogin 0x7f09006c
 int id btnLogin 0x7f09006d
 int id btnLogout 0x7f09006e
+int id btnPickDate 0x7f090221
+int id btnPickTime 0x7f090222
 int id btnPrevious 0x7f09006f
 int id btnSave 0x7f090070
 int id btnSaveTracking 0x7f090071
@@ -3332,7 +3334,6 @@ int id etBirthday 0x7f0900c8
 int id etBreed 0x7f0900c9
 int id etName 0x7f0900ca
 int id etPassword 0x7f0900cb
-int id etTrackingDate 0x7f0900cc
 int id etTrackingDetails 0x7f0900cd
 int id etUsername 0x7f0900ce
 int id exitUntilCollapsed 0x7f0900cf

@@ -18,13 +18,20 @@
             android:gravity="center"
             android:layout_marginBottom="16dp" />
 
-        <EditText
-            android:id="@+id/etTrackingDate"
+        <Button
+            android:id="@+id/btnPickDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Date (e.g. 2025-04-08)"
-            android:inputType="text"
+            android:text="Pick Date"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnPickTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Time"
             android:layout_marginBottom="12dp" />
+
 
         <EditText
             android:id="@+id/etTrackingDetails"

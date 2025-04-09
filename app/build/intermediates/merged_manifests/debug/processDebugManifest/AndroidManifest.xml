@@ -8,6 +8,9 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="35" />
 
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <permission
         android:name="com.example.petcarenotifier.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -35,12 +38,16 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.petcarenotifier.ui.auth.LoginActivity" />
+        <activity android:name="com.example.petcarenotifier.ui.auth.SignupActivity" />
         <activity android:name="com.example.petcarenotifier.ui.pet.PetSelectionActivity" />
         <activity android:name="com.example.petcarenotifier.ui.dashboard.DashboardActivity" />
         <activity android:name="com.example.petcarenotifier.ui.dashboard.EditPetActivity" />
         <activity android:name="com.example.petcarenotifier.ui.calendar.CalendarActivity" />
         <activity android:name="com.example.petcarenotifier.ui.tracking.TrackingActivity" />
-        <activity android:name="com.example.petcarenotifier.ui.auth.SignupActivity" />
+
+        <receiver
+            android:name="com.example.petcarenotifier.notifications.NotificationReceiver"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
