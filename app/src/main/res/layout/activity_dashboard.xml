@@ -99,21 +99,18 @@
                     android:text="Add" />
             </LinearLayout>
 
-            <!-- Tracking Grid -->
-            <GridLayout
+            <!-- Tracking List (Vertical Scrollable Cards) -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_marginTop="8dp">
 
-                <!-- Repeat this block for each category -->
                 <!-- Poop -->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:layout_columnWeight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
                     <LinearLayout
@@ -137,10 +134,9 @@
 
                 <!-- Potty -->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:layout_columnWeight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
                     <LinearLayout
@@ -164,10 +160,9 @@
 
                 <!-- Vaccine -->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:layout_columnWeight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
                     <LinearLayout
@@ -191,10 +186,9 @@
 
                 <!-- Medicine -->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:layout_columnWeight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
                     <LinearLayout
@@ -216,7 +210,8 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-            </GridLayout>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

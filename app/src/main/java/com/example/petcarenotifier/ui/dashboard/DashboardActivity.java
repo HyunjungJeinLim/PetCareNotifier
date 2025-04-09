@@ -105,7 +105,9 @@ public class DashboardActivity extends AppCompatActivity {
                         .setTitle("Delete Entry")
                         .setMessage("Are you sure you want to delete this tracking record?")
                         .setPositiveButton("Delete", (dialog, which) -> {
-                            TrackingRecord.delete(this, record);
+                            TrackingActivity.cancelReminder(this, record.id); // 🛑 Cancel alarm
+                            TrackingRecord.delete(this, record);              // 🗑️ Delete record
+
                             populateTrackingData();
                             android.widget.Toast.makeText(this, "Tracking deleted", android.widget.Toast.LENGTH_SHORT).show();
                         })

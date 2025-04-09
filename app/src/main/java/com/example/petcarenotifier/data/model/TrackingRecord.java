@@ -16,7 +16,7 @@ public class TrackingRecord {
         return AppDatabase.getInstance(context).trackingRecordDao().getAllByUserAndPet(userId, petId);
     }
 
-    public static void add(Context context, String date, String details, String type) {
+    public static int add(Context context, String date, String details, String type) {
         SharedPreferences prefs = context.getSharedPreferences("petcare_prefs", Context.MODE_PRIVATE);
         int userId = prefs.getInt("logged_in_user_id", -1);
         int petId = PetData.currentPetId;
@@ -25,7 +25,8 @@ public class TrackingRecord {
         record.userId = userId;
         record.petId = petId;
 
-        AppDatabase.getInstance(context).trackingRecordDao().insert(record);
+        long id = AppDatabase.getInstance(context).trackingRecordDao().insert(record);
+        return (int) id;
     }
 
     public static void update(Context context, TrackingRecordEntity record) {

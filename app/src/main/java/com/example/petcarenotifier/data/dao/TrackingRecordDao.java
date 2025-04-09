@@ -22,7 +22,8 @@ public interface TrackingRecordDao {
     List<TrackingRecordEntity> getAllByUserAndPet(int userId, int petId);
 
     @Insert
-    void insert(TrackingRecordEntity... records);
+    long insert(TrackingRecordEntity record);
+
 
     @Update
     void update(TrackingRecordEntity record);

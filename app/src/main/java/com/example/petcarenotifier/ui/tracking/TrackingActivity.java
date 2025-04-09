@@ -107,11 +107,11 @@ public class TrackingActivity extends AppCompatActivity {
                     TrackingRecord.update(this, recordToEdit);
                     Toast.makeText(this, "Tracking updated", Toast.LENGTH_SHORT).show();
                 } else {
-                    TrackingRecord.add(this, date, details, type);
+                    int newRecordId = TrackingRecord.add(this, date, details, type); // ✅ updated call
                     Toast.makeText(this, "Tracking saved", Toast.LENGTH_SHORT).show();
 
                     if (triggerAtMillis > System.currentTimeMillis()) {
-                        scheduleReminder(this, triggerAtMillis, "Reminder: " + capitalize(type), details);
+                        scheduleReminder(this, triggerAtMillis, "Reminder: " + capitalize(type), details, newRecordId); // ✅ pass ID
                     }
                 }
                 finish();
@@ -119,6 +119,7 @@ public class TrackingActivity extends AppCompatActivity {
                 Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 
     private int getSpinnerIndex(Spinner spinner, String value) {
@@ -135,7 +136,7 @@ public class TrackingActivity extends AppCompatActivity {
         return s.substring(0, 1).toUpperCase() + s.substring(1);
     }
 
-    public static void scheduleReminder(Context context, long triggerAtMillis, String title, String message) {
+    public static void scheduleReminder(Context context, long triggerAtMillis, String title, String message, int requestCode) {
         AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
@@ -153,7 +154,7 @@ public class TrackingActivity extends AppCompatActivity {
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(
                 context,
-                (int) System.currentTimeMillis(),
+                requestCode,
                 intent,
                 PendingIntent.FLAG_IMMUTABLE
         );
@@ -169,4 +170,19 @@ public class TrackingActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+    public static void cancelReminder(Context context, int requestCode) {
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+
+        Intent intent = new Intent(context, NotificationReceiver.class);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(
+                context,
+                requestCode,
+                intent,
+                PendingIntent.FLAG_IMMUTABLE
+        );
+
+        alarmManager.cancel(pendingIntent);
+    }
+
 }
