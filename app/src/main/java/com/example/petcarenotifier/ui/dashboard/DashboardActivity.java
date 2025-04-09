@@ -13,6 +13,7 @@ import com.example.petcarenotifier.data.entity.TrackingRecordEntity;
 import com.example.petcarenotifier.data.model.PetData;
 import com.example.petcarenotifier.data.model.TrackingRecord;
 import com.example.petcarenotifier.ui.auth.LoginActivity;
+import com.example.petcarenotifier.ui.tracking.TrackingHistoryActivity;
 
 public class DashboardActivity extends AppCompatActivity {
     private PetEntity pet;
@@ -23,10 +24,13 @@ public class DashboardActivity extends AppCompatActivity {
 
         // Button handlers
 
-        findViewById(R.id.btnPrevious).setOnClickListener(v -> finish());
+        findViewById(R.id.btnBack).setOnClickListener(v -> finish());
         findViewById(R.id.btnEdit).setOnClickListener(v -> startActivity(new Intent(this, EditPetActivity.class)));
         findViewById(R.id.btnCalendar).setOnClickListener(v -> startActivity(new Intent(this, CalendarActivity.class)));
         findViewById(R.id.btnAddTracking).setOnClickListener(v -> startActivity(new Intent(this, TrackingActivity.class)));
+        findViewById(R.id.btnHistory).setOnClickListener(v ->
+                startActivity(new Intent(this, TrackingHistoryActivity.class)));
+
 
         refreshPetInfo();
 

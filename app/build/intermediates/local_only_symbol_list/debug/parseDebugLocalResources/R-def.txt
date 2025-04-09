@@ -28,15 +28,16 @@ id Password
 id Username
 id btnAddPet
 id btnAddTracking
+id btnBack
 id btnCalendar
 id btnCreateAccount
 id btnEdit
 id btnGoToLogin
+id btnHistory
 id btnLogin
 id btnLogout
 id btnPickDate
 id btnPickTime
-id btnPrevious
 id btnSave
 id btnSaveTracking
 id btnSignUp
@@ -55,6 +56,7 @@ id llPoopRecords
 id llPottyRecords
 id llVaccineRecords
 id lvEvents
+id lvTrackingHistory
 id petGrid
 id spinnerType
 id textEdit
@@ -64,6 +66,9 @@ id tvBreed
 id tvEventDate
 id tvEventTitle
 id tvPetName
+id tvTrackingDate
+id tvTrackingDetails
+id tvTrackingType
 layout activity_calendar
 layout activity_dashboard
 layout activity_edit_pet
@@ -72,8 +77,10 @@ layout activity_main
 layout activity_pet_selection
 layout activity_signup
 layout activity_tracking
+layout activity_tracking_history
 layout item_event
 layout item_pet
+layout item_tracking_history
 mipmap ic_launcher
 mipmap ic_launcher_round
 string add_event

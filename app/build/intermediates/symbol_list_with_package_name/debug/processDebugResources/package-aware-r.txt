@@ -3234,15 +3234,16 @@ id bounceEnd
 id bounceStart
 id btnAddPet
 id btnAddTracking
+id btnBack
 id btnCalendar
 id btnCreateAccount
 id btnEdit
 id btnGoToLogin
+id btnHistory
 id btnLogin
 id btnLogout
 id btnPickDate
 id btnPickTime
-id btnPrevious
 id btnSave
 id btnSaveTracking
 id btnSignUp
@@ -3405,6 +3406,7 @@ id llPoopRecords
 id llPottyRecords
 id llVaccineRecords
 id lvEvents
+id lvTrackingHistory
 id m3_side_sheet
 id marquee
 id masked
@@ -3650,6 +3652,9 @@ id tvBreed
 id tvEventDate
 id tvEventTitle
 id tvPetName
+id tvTrackingDate
+id tvTrackingDetails
+id tvTrackingType
 id unchecked
 id uniform
 id unlabeled
@@ -3797,6 +3802,7 @@ layout activity_main
 layout activity_pet_selection
 layout activity_signup
 layout activity_tracking
+layout activity_tracking_history
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3817,6 +3823,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_event
 layout item_pet
+layout item_tracking_history
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

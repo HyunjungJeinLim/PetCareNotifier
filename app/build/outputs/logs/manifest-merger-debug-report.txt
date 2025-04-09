@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-34:12
+ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:1:1-36:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Stephanie\.gradle\caches\8.10.2\transforms\28c82937c093b419de39576a69d53a3d\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Stephanie\.gradle\caches\8.10.2\transforms\9d8d24b93e77f6009415581e6710f1e6\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Stephanie\.gradle\caches\8.10.2\transforms\5efea618ce1a8f83343b2b72a4ef59d2\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -67,8 +67,8 @@ ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:5:22-74
 application
-ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:7:5-33:19
-INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:7:5-33:19
+ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:7:5-35:19
+INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:7:5-35:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Stephanie\.gradle\caches\8.10.2\transforms\28c82937c093b419de39576a69d53a3d\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Stephanie\.gradle\caches\8.10.2\transforms\28c82937c093b419de39576a69d53a3d\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Stephanie\.gradle\caches\8.10.2\transforms\9d8d24b93e77f6009415581e6710f1e6\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -147,12 +147,16 @@ activity#com.example.petcarenotifier.ui.tracking.TrackingActivity
 ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:28:9-66
 	android:name
 		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:28:19-63
-receiver#com.example.petcarenotifier.notifications.NotificationReceiver
-ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:30:9-32:39
-	android:exported
-		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:32:13-36
+activity#com.example.petcarenotifier.ui.tracking.TrackingHistoryActivity
+ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:29:9-73
 	android:name
-		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:31:13-63
+		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:29:19-70
+receiver#com.example.petcarenotifier.notifications.NotificationReceiver
+ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:32:9-34:39
+	android:exported
+		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml:33:13-63
 uses-sdk
 INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\PetCareNotifier\app\src\main\AndroidManifest.xml
