@@ -84,8 +84,44 @@ public class TrackingActivity extends AppCompatActivity {
                 if (recordToEdit != null) {
                     etDetails.setText(recordToEdit.details);
                     spinnerType.setSelection(getSpinnerIndex(spinnerType, capitalize(recordToEdit.type)));
-                    // Optional: parse recordToEdit.date and set pickers accordingly
+
+                    // Parse date
+                    try {
+                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+                        Date parsedDate = sdf.parse(recordToEdit.date);
+                        Calendar cal = Calendar.getInstance();
+                        cal.setTime(parsedDate);
+
+                        selectedYear = cal.get(Calendar.YEAR);
+                        selectedMonth = cal.get(Calendar.MONTH);
+                        selectedDay = cal.get(Calendar.DAY_OF_MONTH);
+
+                        btnPickDate.setText(String.format(Locale.getDefault(), "%04d-%02d-%02d", selectedYear, selectedMonth + 1, selectedDay));
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                    // Parse time
+                    try {
+                        if (recordToEdit.time != null && !recordToEdit.time.isEmpty()) {
+                            String[] parts = recordToEdit.time.split(":");
+                            selectedHour = Integer.parseInt(parts[0]);
+                            selectedMinute = Integer.parseInt(parts[1]);
+                        } else {
+                            selectedHour = 12;
+                            selectedMinute = 0;
+                        }
+                    } catch (Exception e) {
+                        selectedHour = 12;
+                        selectedMinute = 0;
+                        e.printStackTrace();
+                    }
+
+                    btnPickTime.setText(String.format(Locale.getDefault(), "%02d:%02d", selectedHour, selectedMinute));
                 }
+
+
             }
         }
 
@@ -98,20 +134,30 @@ public class TrackingActivity extends AppCompatActivity {
             long triggerAtMillis = selectedDateTime.getTimeInMillis();
 
             String date = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(selectedDateTime.getTime());
+            String time = String.format(Locale.getDefault(), "%02d:%02d", selectedHour, selectedMinute);
 
             if (!date.isEmpty() && !details.isEmpty()) {
                 if (recordToEdit != null) {
+                    cancelReminder(this, recordToEdit.id);
+
                     recordToEdit.date = date;
                     recordToEdit.details = details;
                     recordToEdit.type = type;
+                    recordToEdit.time = time; // ✅ fix
+
                     TrackingRecord.update(this, recordToEdit);
+
+                    if (triggerAtMillis > System.currentTimeMillis()) {
+                        scheduleReminder(this, triggerAtMillis, "Reminder: " + capitalize(type), details, recordToEdit.id);
+                    }
+
                     Toast.makeText(this, "Tracking updated", Toast.LENGTH_SHORT).show();
                 } else {
-                    int newRecordId = TrackingRecord.add(this, date, details, type); // ✅ updated call
+                    int newRecordId = TrackingRecord.add(this, date, details, type, time); // ✅ fix
                     Toast.makeText(this, "Tracking saved", Toast.LENGTH_SHORT).show();
 
                     if (triggerAtMillis > System.currentTimeMillis()) {
-                        scheduleReminder(this, triggerAtMillis, "Reminder: " + capitalize(type), details, newRecordId); // ✅ pass ID
+                        scheduleReminder(this, triggerAtMillis, "Reminder: " + capitalize(type), details, newRecordId);
                     }
                 }
                 finish();
@@ -119,6 +165,7 @@ public class TrackingActivity extends AppCompatActivity {
                 Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             }
         });
+
 
     }
 

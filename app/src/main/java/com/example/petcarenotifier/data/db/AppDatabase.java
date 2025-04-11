@@ -5,7 +5,6 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.petcarenotifier.data.dao.CalendarEventDao;
 import com.example.petcarenotifier.data.dao.PetDao;
 import com.example.petcarenotifier.data.dao.TrackingRecordDao;
 import com.example.petcarenotifier.data.dao.UserDao;
@@ -19,13 +18,13 @@ import com.example.petcarenotifier.data.entity.UserEntity;
         TrackingRecordEntity.class,
         CalendarEventEntity.class,
         UserEntity.class
-}, version = 6)
+}, version = 7)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase instance;
 
     public abstract PetDao petDao();
     public abstract TrackingRecordDao trackingRecordDao();
-    public abstract CalendarEventDao calendarEventDao();
+
     public abstract UserDao userDao();
 
     public static synchronized AppDatabase getInstance(Context context) {

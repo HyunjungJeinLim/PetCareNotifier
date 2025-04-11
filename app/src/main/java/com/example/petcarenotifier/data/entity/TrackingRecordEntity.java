@@ -13,10 +13,13 @@ public class TrackingRecordEntity {
     public String type;
     public int userId;
     public int petId;
+    public String time; // e.g., "14:30"
+
 
     public TrackingRecordEntity(String date, String details, String type) {
         this.date = date;
         this.details = details;
         this.type = type;
     }
+
 }
