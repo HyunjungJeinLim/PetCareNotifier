@@ -3237,6 +3237,7 @@ id btnAddTracking
 id btnBack
 id btnCalendar
 id btnCreateAccount
+id btnDelete
 id btnEdit
 id btnGoToLogin
 id btnHistory
@@ -3248,6 +3249,7 @@ id btnSave
 id btnSaveTracking
 id btnSignUp
 id btnStart
+id btnUploadPhoto
 id buttonPanel
 id cache_measures
 id calendarView

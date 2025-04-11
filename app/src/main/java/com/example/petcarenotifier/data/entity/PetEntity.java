@@ -14,6 +14,8 @@ public class PetEntity {
     public String birthday;
     public int imageResId;
     public int userId;
+    public String photoUri;
+
 
     public PetEntity(String name, String age, String breed, String birthday, int imageResId) {
         this.name = name;

@@ -1,6 +1,9 @@
 package com.example.petcarenotifier.ui.pet;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +14,7 @@ import android.widget.TextView;
 import com.example.petcarenotifier.R;
 import com.example.petcarenotifier.data.entity.PetEntity;
 
+import java.io.InputStream;
 import java.util.List;
 
 public class PetAdapter extends BaseAdapter {
@@ -34,7 +38,7 @@ public class PetAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return pets.get(position).id; // if you want to return Room ID
+        return pets.get(position).id;
     }
 
     @Override
@@ -44,13 +48,26 @@ public class PetAdapter extends BaseAdapter {
         }
 
         PetEntity pet = pets.get(position);
-
-        ImageView ivPet = convertView.findViewById(R.id.ivPet);
+        ImageView imageView = convertView.findViewById(R.id.ivPet);
         TextView tvPetName = convertView.findViewById(R.id.tvPetName);
 
-        ivPet.setImageResource(pet.imageResId);
-        tvPetName.setText(pet.name);
+        if (pet.photoUri != null && !pet.photoUri.isEmpty()) {
+            try (InputStream inputStream = context.getContentResolver().openInputStream(Uri.parse(pet.photoUri))) {
+                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+                if (bitmap != null) {
+                    imageView.setImageBitmap(bitmap);
+                } else {
+                    imageView.setImageResource(pet.imageResId);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+                imageView.setImageResource(pet.imageResId);
+            }
+        } else {
+            imageView.setImageResource(pet.imageResId);
+        }
 
+        tvPetName.setText(pet.name);
         return convertView;
     }
 }

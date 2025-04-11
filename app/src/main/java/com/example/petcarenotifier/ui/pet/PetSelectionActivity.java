@@ -3,6 +3,7 @@ package com.example.petcarenotifier.ui.pet;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.GridView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.petcarenotifier.R;
@@ -23,11 +24,13 @@ public class PetSelectionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pet_selection);
 
         gridView = findViewById(R.id.petGrid);
-        adapter = new PetAdapter(this, PetData.getAll(this));
+
+        // Initial data load
+        pets = PetData.getAll(this);
+        adapter = new PetAdapter(this, pets);
         gridView.setAdapter(adapter);
 
         gridView.setOnItemClickListener((parent, view, position, id) -> {
-            pets = PetData.getAll(this); // ensure latest data
             PetData.currentPetId = pets.get(position).id;
             startActivity(new Intent(this, DashboardActivity.class));
         });
@@ -35,14 +38,14 @@ public class PetSelectionActivity extends AppCompatActivity {
         findViewById(R.id.btnAddPet).setOnClickListener(v -> {
             PetEntity newPet = new PetEntity("New Pet", "1", "Unknown", "01/01/2023", R.drawable.ic_pet_care);
             PetData.add(this, newPet);
-            refreshPets(); // force reload
+            refreshPets();
         });
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        refreshPets(); // ✅ update pets after returning from edit
+        refreshPets(); // Refresh after edits or new additions
     }
 
     private void refreshPets() {

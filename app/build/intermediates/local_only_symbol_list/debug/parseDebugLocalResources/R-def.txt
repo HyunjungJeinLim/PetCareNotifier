@@ -31,6 +31,7 @@ id btnAddTracking
 id btnBack
 id btnCalendar
 id btnCreateAccount
+id btnDelete
 id btnEdit
 id btnGoToLogin
 id btnHistory
@@ -42,6 +43,7 @@ id btnSave
 id btnSaveTracking
 id btnSignUp
 id btnStart
+id btnUploadPhoto
 id calendarView
 id etAge
 id etBirthday

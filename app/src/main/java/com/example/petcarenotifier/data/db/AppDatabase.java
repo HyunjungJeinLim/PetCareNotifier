@@ -18,7 +18,7 @@ import com.example.petcarenotifier.data.entity.UserEntity;
         TrackingRecordEntity.class,
         CalendarEventEntity.class,
         UserEntity.class
-}, version = 7)
+}, version = 8)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase instance;
 
