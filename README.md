@@ -7,8 +7,8 @@
 ![Images1](images/pet_add.png)
 ![Images2](images/pet_Edit.png)
 ![Images3](images/pet_tracking.png)
-![Images4](images/pet_alert.png)
-![Images5](images/pet_calendar.png)
+![Images4](images/pet-alert.png)
+![Images5](images/pet-calendar.png)
 
 
 📋 Description
