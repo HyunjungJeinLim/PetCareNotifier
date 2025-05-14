@@ -1,0 +1,71 @@
+<resources>
+<string name="app_name">Pet Care Notifier</string>
+<string name="start">Start</string>
+<string name="login">Login</string>
+<string name="hint_username">Username</string>
+<string name="hint_password">Password</string>
+<string name="invalid_credentials">Invalid username or password</string>
+<string name="select_pet">Select Your Pet</string>
+<string name="add_pet">Add New Pet</string>
+<string name="all_tracking">All Tracking</string>
+<string name="poop">Poop</string>
+<string name="potty">Potty</string>
+<string name="vaccine">Vaccine</string>
+<string name="medicine">Medicine</string>
+<string name="previous">Previous</string>
+<string name="edit">Edit</string>
+<string name="calendar">Calendar</string>
+<string name="event">Event</string>
+<string name="save">Save</string>
+<string name="hint_name">Name</string>
+<string name="hint_age">Age</string>
+<string name="hint_breed">Breed</string>
+<string name="hint_birthday">Birthday</string>
+<string name="hint_event_date">Date (YYYY-MM-DD)</string>
+<string name="hint_event_title">Event Title</string>
+<string name="add_event">Add Event</string>
+<string name="no_records">No records found</string>
+<string name="age_format">Age: %s years</string>
+<string name="breed_format">Breed: %s</string>
+<string name="birthday_format">Birthday: %s</string>
+    <string name="poop_text">Poop</string>
+    <string name="potty_text">Potty</string>
+    <string name="vaccine_text">Vaccine</string>
+    <string name="medicine_text">Medicine</string>
+    <string name="add">Add</string>
+    <string name="edit_btn">Edit</string>
+    <string name="age_2">Age: 2</string>
+    <string name="birthday_2023_01_01">Birthday: 2023-01-01</string>
+    <string name="breed_shiba_inu">Breed: Shiba Inu</string>
+    <string name="pet_name">Pet Name</string>
+    <string name="delete_pet">Delete Pet</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="pet_photo">Pet Photo</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log In</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="add_tracking_record">Add Tracking Record</string>
+    <string name="type">Type</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="save_text">Save</string>
+    <string name="details">Details</string>
+    <string name="todo">TODO</string>
+    <string name="back">Back</string>
+    <string name="calendar_icon">Calendar</string>
+    <string name="history">History</string>
+    <string name="theme">Theme</string>
+    <string name="logout">Logout</string>
+    <string name="add_to_google_calendar">Add to Google Calendar</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string-array name="tracking_types">
+        <item>Poop</item>
+        <item>Potty</item>
+        <item>Vaccine</item>
+        <item>Medicine</item>
+    </string-array>
+
+</resources>
