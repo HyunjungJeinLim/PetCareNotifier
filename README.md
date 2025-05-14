@@ -13,7 +13,7 @@
 
 📋 Description
 - PetCare Notifier is an Android application developed to assist pet owners in managing daily care routines for their pets.
-- It allows users to register pet profiles, schedule reminders for feeding, medication, and vet visits, and receive push notifications for upcoming tasks — all within a modern and intuitive UI.
+- It allows users to register pet profiles, schedule reminders for feeding, medication, and vet visits, and receive push notifications for upcoming tasks all within a modern and intuitive UI.
 
 ✨ Features
 - Pet profile creation and editing
@@ -27,10 +27,10 @@
 - Offline-first design, with future cloud sync planned
 
 🛠️ Skills
-- Kotlin, Java – Primary language for Android development
-- Android Studio – Development environment
-- Material Design – UI/UX framework for clean visuals
+- Kotlin, Java - Primary language for Android development
+- Android Studio - Development environment
+- Material Design - UI/UX framework for clean visuals
 - NotificationManager & AlarmManager – Android native scheduling
-- Java Time API – Date and calendar logic
-- Gradle (Kotlin DSL) – Build automation tool
-- MVVM Architecture – Organized code structure
+- Java Time API - Date and calendar logic
+- Gradle (Kotlin DSL) - Build automation tool
+- MVVM Architecture - Organized code structure
